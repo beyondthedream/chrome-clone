@@ -1,0 +1,82 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Square Peg", cursive;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#quote,
+#todo-list,
+#clock {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#clock {
+  font-size: 70px;
+  margin: 0px 0px 30px 0px;
+}
+
+#greeting {
+  color: #fff;
+  margin-top: 0px;
+}
+
+#todo-list {
+  font-size: 20px;
+}
+
+button:first-child {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Square Peg", cursive;
+  font-size: 30px;
+  margin-left: 10px;
+}
+button:last-child {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Square Peg", cursive;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  height: 30px;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  font-family: "Square Peg", cursive;
+  font-size: 25px;
+}
+
+input::placeholder {
+  font-family: "Square Peg", cursive;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
